@@ -1,0 +1,14 @@
+header{
+    background: url("../images/BG header.png") no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+header > img {
+    float: inherit;
+    margin: 0;
+    display: inline-block;
+}
+header > ul > li{
+   display: inline-block;
+   float: right;
+}

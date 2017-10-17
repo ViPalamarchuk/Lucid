@@ -1,0 +1,85 @@
+header{
+    background: url("../images/header_bg.png") no-repeat;
+    background-color: rgba(0,0,0, 0.8);
+    background-blend-mode: darken;
+
+}
+.logo {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+ul {
+    min-width: 50%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.top-menu li {
+    list-style-position: inside;
+    display: inline-flex;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 0.7em;
+    margin-left: -1.9em;
+    margin-right: -.5em;
+    margin-top: 5%;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+p.header_p1 {
+    width: 50%;
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
+    margin-left: 15%;
+    margin-top: 11%;
+}
+h1{
+    width: 50%;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: rgba(255,255,255,255);
+    margin-left: 15%;
+}
+p.header_p2 {
+    width: 50%;
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(153,153,153,255);
+    margin-left: 15%;
+}
+.buttons{
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+.phone {
+    margin-top: 8%;
+}
+.header_left{
+    max-width: 60%;
+    clear: both;
+    overflow: hidden;
+    float: left;
+}
+.header_right{
+    max-width: 40%;
+    clear: both;
+    overflow: hidden;
+    float: right;
+}
+.header {
+    display: flex;
+
+}

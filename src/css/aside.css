@@ -1,0 +1,12 @@
+.aside_phone{
+    float: left;
+}
+.aside_menu{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: #000000;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}

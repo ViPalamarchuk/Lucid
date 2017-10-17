@@ -2,7 +2,6 @@ header{
     background: url("../images/header_bg.png") no-repeat;
     background-color: rgba(0,0,0, 0.8);
     background-blend-mode: darken;
-
 }
 .logo {
     display: inline-block;

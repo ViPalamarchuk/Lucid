@@ -35,7 +35,7 @@ a:hover {
     text-decoration: none;
     color: #ffffff;
 }
-p.header_p1 {
+p.header_caption {
     width: 50%;
     font-weight: 600;
     font-size: 0.875em;
@@ -50,7 +50,7 @@ h1{
     color: rgba(255,255,255,255);
     margin-left: 15%;
 }
-p.header_p2 {
+.header_text {
     width: 50%;
     font-weight: 600;
     font-size: 0.875em;

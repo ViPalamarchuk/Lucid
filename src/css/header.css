@@ -25,7 +25,7 @@ ul {
     margin-left: -1.9em;
     margin-right: -.5em;
     margin-top: 5%;
-
+    min-height: 40%;
 }
 a{
     text-decoration: none;

@@ -1,7 +1,22 @@
-body{
-    font-family: "Source Sans Pro", sans-serif;
+p.main_caption{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
 }
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url(../fonts/SourceSansPro-Regular.ttf);
+h5{
+    font-weight: 600;
+    font-size: 3em;
+    color: rgba(255,255,255,255);
+}
+main{
+    background-image: url("../images/main_bg.png");
+}
+.caption_main{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.main_button{
+    display: flex;
+}
+img.main_button{
 }

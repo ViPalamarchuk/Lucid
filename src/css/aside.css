@@ -1,10 +1,22 @@
+.aside_1{
+    display: flex;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5%;
+    margin-top: 5%;
+}
 .aside_phone_left{
-    float: left;
-    width: 30%;
-    height: 50%;
-    margin-left: 5%;
-    margin-top: 2%;
-
+    width: 50%;
+}
+.aside_caption{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
+}
+h3 {
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
 }
 .aside_menu{
     font-weight: 600;
@@ -13,60 +25,35 @@
     display: table;
     border-collapse: separate;
     border-spacing: 0;
-    margin-top: -1%;
+    text-align: left;
 }
 .aside_phone_right{
-    float: right;
-    width: 40%;
-    height: 30%;
-    margin-top: 2%;
-}
-.aside_left{
-    float: left;
-    margin-top: 2%;
-
+    width: 50%;
 }
 .aside_2{
     display: flex;
-    margin-left: 7%;
-    background-color: #fff9;
-}
-.aside_1{
-    display: flex;
+    margin-left: 3%;
     margin-top: 5%;
     background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: 100%;
+
 }
-.aside_caption{
-    font-weight: 600;
-    font-size: 0.875em;
-    color: rgba(0,142,214,255);
-    margin-top: -1%;
-}
-p.aside_text_left{
-    font-weight: 600;
-    font-size: 1.2em;
-    color: rgba(153,153,153,255);
-    margin-top: -1%;
-}
-p.aside_text_right{
-    font-weight: 600;
+p.aside_text{
+    font-weight: 500;
     font-size: 1.25em;
     color: rgba(153,153,153,255);
-    margin-top: -1%;
-}
-h3 {
-    font-weight: 600;
-    font-size: 3em;
-    margin-top: -1%;
+    margin: 0.25% 0;
 }
 h4{
     font-weight: 600;
     font-size: 3em;
-    margin-top: -1%;
+    margin: 0;
 }
-.aside_line_right{
-    margin-top: -10%;
+aside{
+    box-sizing: border-box;
+    padding: 5%;
 }
-.aside_line_left{
-    margin-top: -5%;
+.aside_left{
+    margin-left: 2%;
 }

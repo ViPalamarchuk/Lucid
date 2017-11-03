@@ -1,23 +1,21 @@
-.footer_copyright{
-    background-image: url("../images/footer_bg.png");
-    display: list-item;
-}
 form{
     background: #000000 !important;
     outline: none;
     font-size: 1.25em;
     display: flex;
-    height: 40%;
-    width: 60%;
     margin-left: 25%;
     margin-right: 25%;
+    text-align: justify;
+    text-align-last: left;
+    position: absolute;
+    margin: 0;
 }
 .form_right{
-    float: right;
+
 
 }
 .form_left{
-    float: left;
+
 }
 .color_form{
     background-color: rgba(0,142,214,255);
@@ -28,22 +26,44 @@ form{
     -moz-border-radius: 3px;
     -khtml-border-radius: 3px;
 }
-.information{
-    display: flex;
-    min-width: 100%;
-    min-height: 20%;
-}
 .footer_caption{
     font-weight: 600;
     font-size: 1.5em;
     color: rgba(0,142,214,255);
     text-align: center;
+    margin: 0;
 }
 h6{
     font-size: 2em;
+    color: #000000;
     text-align: center;
+    margin: 0;
 }
 .footer_line{
     margin-left: 47.5%;
     margin-right: 52.5%;
+}
+table.footer_table{
+    border-collapse: collapse;
+    border: none;
+    margin-top: -3.5%;
+
+}
+td.footer_table{
+
+}
+.footer_copyright{
+    background-image: url("../images/footer_bg.png");
+    display: list-item;
+    min-height: 162px;
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: center;
+}
+li.footer_copyright{
+    margin: 20%;
+}
+iframe{
+    z-index: 500;
+    margin-top: 16%;
 }

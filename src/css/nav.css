@@ -1,0 +1,22 @@
+h6.nav_table{
+    color: rgba(26,26,26,255);
+    font-size: 2.250em;
+    font-weight: 600;
+}
+table.nav_table{
+    border-collapse: separate;
+    border: none;
+    text-align: center;
+}
+tr.nav_table {
+
+}
+.nav_table{
+
+}
+.nav_caption{
+    font-weight: 600;
+    font-size: 2.250em;
+    color: rgba(0,142,214,255);
+
+}

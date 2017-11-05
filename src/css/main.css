@@ -9,7 +9,6 @@ p.main_caption{
     font-size: 0.875em;
     color: rgba(0,142,214,255);
     text-align: center;
-    margin: 0;
 }
 h5{
     font-weight: 600;
@@ -21,9 +20,18 @@ h5{
 .main_button {
     display: flex;
     background-image: url("../images/main_bg_buttons.png");
-    height: 15%;
+    background-size: cover;
     color: rgba(255, 255, 255, 255);
     font-size: 2.250em;
+}
+.main_button_right{
+    box-sizing: border-box;
+    padding: 5%;
+}
+.main_button_left{
+    box-sizing: border-box;
+    padding: 3%;
+    margin-left: 5%
 }
 .main_point{
     display: block;
@@ -44,4 +52,14 @@ p.reviem{
     font-style: italic ;
     color: rgba(255,255,255,255);
     margin: 0;
+}
+.main_line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_nav{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-sizing: border-box;
+    padding: 2%;
 }

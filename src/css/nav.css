@@ -1,22 +1,27 @@
-h6.nav_table{
-    color: rgba(26,26,26,255);
-    font-size: 2.250em;
-    font-weight: 600;
-}
 table.nav_table{
-    border-collapse: separate;
-    border: none;
+    border: 1px;
     text-align: center;
+    white-space: pre-line;
+    width: 100%;
 }
 tr.nav_table {
 
 }
 .nav_table{
-
+    box-sizing: border-box;
+    padding: 3%;
+    white-space: pre-line;
+    margin: 0;
+    text-align: center;
 }
-.nav_caption{
-    font-weight: 600;
-    font-size: 2.250em;
+.nav_table_caption{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: rgba(26,26,26,255);
+}
+span{
     color: rgba(0,142,214,255);
-
+}
+.nav_table_text{
+    color: rgba(153,153,153,255);
 }

@@ -44,6 +44,7 @@ table.footer_table{
     width: 100%;
     color: rgba(153,153,153,255);
     white-space: pre-line;
+    table-layout: fixed;
 }
 .footer_copyright{
     background-image: url("../images/footer_bg.png");

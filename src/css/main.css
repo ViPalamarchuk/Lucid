@@ -1,7 +1,66 @@
-body{
-    font-family: "Source Sans Pro", sans-serif;
+main{
+    background: url("../images/main_bg.png");
+    background-size: 100%;
+    background-color: rgba(0,0,0, 0.6);
+    background-blend-mode: darken;
 }
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url(../fonts/SourceSansPro-Regular.ttf);
+p.main_caption{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
+    text-align: center;
+}
+h5{
+    font-weight: 600;
+    font-size: 2.250em;
+    color: rgba(255,255,255,255);
+    margin: 0;
+    text-align: center;
+}
+.main_button {
+    display: flex;
+    background-image: url("../images/main_bg_buttons.png");
+    background-size: cover;
+    color: rgba(255, 255, 255, 255);
+    font-size: 2.250em;
+}
+.main_button_right{
+    box-sizing: border-box;
+    padding: 5%;
+}
+.main_button_left{
+    box-sizing: border-box;
+    padding: 3%;
+    margin-left: 5%
+}
+.main_point{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.main_table{
+    box-sizing: border-box;
+    padding: 3%;
+    white-space: pre-line;
+    margin: 0;
+    width: 100%;
+}
+p.reviem{
+    font-weight: 100;
+    font-size: 1.5em;
+    font-style: italic ;
+    color: rgba(255,255,255,255);
+    margin: 0;
+}
+.main_line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_nav{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-sizing: border-box;
+    padding: 2%;
 }

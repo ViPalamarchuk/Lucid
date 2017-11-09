@@ -1,0 +1,57 @@
+.aside_1{
+    display: flex;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5%;
+    margin-top: 5%;
+}
+.aside_phone_left{
+    width: 50%;
+}
+.aside_caption{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
+}
+h3 {
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
+}
+.aside_menu{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: #000000;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+}
+.aside_phone_right{
+    width: 50%;
+}
+.aside_2{
+    display: flex;
+    margin-left: 3%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -3%;
+
+}
+p.aside_text{
+    font-weight: 500;
+    font-size: 1.25em;
+    color: rgba(153,153,153,255);
+    margin: 0.25% 0;
+}
+h4{
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
+}
+aside{
+    box-sizing: border-box;
+    padding: 5%;
+}
+.aside_left{
+    margin-left: 2%;
+}

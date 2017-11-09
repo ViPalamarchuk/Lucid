@@ -1,8 +1,8 @@
 header{
-    background: url("../images/header_bg.png") no-repeat;
+    background: url("../images/header_bg.png");
     background-color: rgba(0,0,0, 0.8);
     background-blend-mode: darken;
-
+    background-size: 100%;
 }
 .logo {
     display: inline-block;
@@ -26,7 +26,7 @@ ul {
     margin-left: -1.9em;
     margin-right: -.5em;
     margin-top: 5%;
-
+    min-height: 40%;
 }
 a{
     text-decoration: none;
@@ -36,7 +36,7 @@ a:hover {
     text-decoration: none;
     color: #ffffff;
 }
-p.header_p1 {
+p.header_caption {
     width: 50%;
     font-weight: 600;
     font-size: 0.875em;
@@ -51,7 +51,7 @@ h1{
     color: rgba(255,255,255,255);
     margin-left: 15%;
 }
-p.header_p2 {
+.header_text {
     width: 50%;
     font-weight: 600;
     font-size: 0.875em;
@@ -81,5 +81,26 @@ p.header_p2 {
 }
 .header {
     display: flex;
-
+}
+.section_caption{
+    font-weight: 600;
+    font-size: 0.875em;
+    color: rgba(0,142,214,255);
+    text-align: center;
+}
+h2{
+    color: rgba(26,26,26,255);
+    font-size: 2.250em;
+    font-weight: 600;
+    text-align: center;
+}
+.section_line{
+    margin-right: 47.5%;
+    margin-left: 47.5%;
+}
+.header_sect{
+    margin-top: -6.5%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+    padding: 2%;
 }

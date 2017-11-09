@@ -1,0 +1,40 @@
+table.nav_table{
+    border: 1px;
+    text-align: center;
+    white-space: pre-line;
+    width: 100%;
+    table-layout: fixed;
+    zoom: normal;
+}
+tr.nav_table {
+
+}
+.nav_table{
+    box-sizing: border-box;
+    padding: 3%;
+    white-space: pre-line;
+    margin: 0;
+    text-align: center;
+}
+.nav_table_caption{
+    font-weight: 700;
+
+    font-size: 3vmin;
+    color: rgba(26,26,26,255);
+}
+span{
+    color: rgba(0,142,214,255);
+}
+.nav_table_text{
+    color: rgba(153,153,153,255);
+}
+.nav_table_dollars{
+    color: rgba(26,26,26,255);
+    font-size: 3.750em;
+    margin: 0;
+}
+.nav_table_prise_text{
+    color: rgba(153,153,153,255);
+    font-size: 1.5em;
+    margin: 0;
+}
